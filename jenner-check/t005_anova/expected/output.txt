@@ -1,0 +1,112 @@
+                                  ANOVA Test for Smoking Prevalence between Age Groups
+
+
+Dependent Variable: Smoking_Prevalence Smoking Prevalence %
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+Age groups               3       3975.1440       1325.0480     119.90     0.0000
+Error                   16        176.8240         11.0515          .          .
+Corrected Total         19       4151.9680                          .          .
+
+R-Square: 0.9574  Root MSE: 3.3244  Mean: 32.8600
+
+
+Scheffe's Test for Smoking Prevalence %
+
+Alpha                            0.05
+Error Degrees of Freedom         16
+Error Mean Square                11.051500
+
+Level of          -----------Age groups----------
+Age groups            N         Mean      Std Dev
+
+10-12                 5      13.2800       3.6915
+13-15                 5      27.1600       3.4544
+16-18                 5      40.0400       3.0924
+19-21                 5      50.9600       3.0138
+
+Comparisons significant at the 0.05 level are indicated by ***.
+
+Comparison             Difference      Std Err  Significant
+------------------------------------------------------------
+10-12 - 13-15            -13.8800       2.1025          ***
+10-12 - 16-18            -26.7600       2.1025          ***
+10-12 - 19-21            -37.6800       2.1025          ***
+13-15 - 16-18            -12.8800       2.1025          ***
+13-15 - 19-21            -23.8000       2.1025          ***
+16-18 - 19-21            -10.9200       2.1025          ***
+
+
+                                    Smoking Prevalence by Socioeconomic Status ANOVA
+
+
+Dependent Variable: Smoking_Prevalence Smoking Prevalence %
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+Socioeconomic Status     2        137.2625         68.6313       0.29     0.7514
+Error                   17       4014.7055        236.1591          .          .
+Corrected Total         19       4151.9680                          .          .
+
+R-Square: 0.0331  Root MSE: 15.3675  Mean: 32.8600
+
+
+Scheffe's Test for Smoking Prevalence %
+
+Alpha                            0.05
+Error Degrees of Freedom         17
+Error Mean Square                236.159146
+
+Level of          -----------Socioeconomic Status (Level)----------
+Socioeconomic Status (Level)      N         Mean      Std Dev
+
+High                  6      28.8833      14.9958
+Low                   7      34.9143      15.2813
+Middle                7      34.2143      15.7545
+
+Comparisons significant at the 0.05 level are indicated by ***.
+
+Comparison             Difference      Std Err  Significant
+------------------------------------------------------------
+High - Low                -6.0310       8.5497             
+High - Middle             -5.3310       8.5497             
+Low - Middle               0.7000       8.2143             
+
+
+                                   Drug Experimentation by Socioeconomic Status ANOVA
+
+
+Dependent Variable: Drug_Experimentation Drug Experimentation %
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+Socioeconomic Status     2         90.8865         45.4432       0.32     0.7331
+Error                   17       2442.6190        143.6835          .          .
+Corrected Total         19       2533.5055                          .          .
+
+R-Square: 0.0359  Root MSE: 11.9868  Mean: 21.8650
+
+
+Scheffe's Test for Drug Experimentation %
+
+Alpha                            0.05
+Error Degrees of Freedom         17
+Error Mean Square                143.683473
+
+Level of          -----------Socioeconomic Status (Level)----------
+Socioeconomic Status (Level)      N         Mean      Std Dev
+
+High                  6      18.6667      11.5737
+Low                   7      23.7143      11.9771
+Middle                7      22.7571      12.3299
+
+Comparisons significant at the 0.05 level are indicated by ***.
+
+Comparison             Difference      Std Err  Significant
+------------------------------------------------------------
+High - Low                -5.0476       6.6688             
+High - Middle             -4.0905       6.6688             
+Low - Middle               0.9571       6.4072             
+
+

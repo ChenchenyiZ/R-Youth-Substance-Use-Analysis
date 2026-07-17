@@ -1,0 +1,27 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB assigned path=/tmp/work/r_05c69e28105c46bca80e8b276d491d52/work/69c99e5e-9b6b-4edf-93a1-4d3d8394ecf0.
+NOTE: DATA mylib.youth_smoking_drug_data
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote mylib.youth_smoking_drug_data (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA mylib.youth_smoking_drug_data_copy
+
+
+NOTE: Read 20 rows from mylib.youth_smoking_drug_data.
+NOTE: Wrote mylib.youth_smoking_drug_data_copy (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Contents of Complete Data Set Ready For Analysis.
+NOTE: Option TITLE2 changed to Group 14: Abby K., Chenchenyi Z., Yulai Z., and Xinrui W..
+NOTE: PROC CONTENTS data=mylib.youth_smoking_drug_data_copy
+
+NOTE: PROC CONTENTS completed: 20 observations, 8 variables
+NOTE: PROC TABULATE

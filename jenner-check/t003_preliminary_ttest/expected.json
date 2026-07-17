@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-17T17:10:00Z",
+  "_captured_run_id": "r_25ef2d269ce94a5cb475597e87ed917c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 20 rows from DATALINES.",
+    "NOTE: PROC TABULATE",
+    "NOTE: PROC TTEST statement used.",
+    "NOTE: PROC SGPLOT data=mylib.youth_smoking_drug_data_copy"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

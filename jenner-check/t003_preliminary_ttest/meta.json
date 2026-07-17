@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_preliminary_ttest",
+  "source_file": "Group_PreliminaryAnalysis_code_14.sas",
+  "source_blob_sha": "fd76d8fe8a50e847cfe3ea37e4c66de0b3a082bb",
+  "source_commit": "fd01c61c0b4c79c25fea12e863dbb71427ad9dfc",
+  "notes": "Chenchenyi's question (which age group has a higher smoking chance): styled PROC TABULATE, PROC SORT + PROC TTEST BY Age_Group, PROC SGPLOT histogram/density overlay. Original LIBNAME/PROC IMPORT pointed at a classroom shared drive and an out-of-repo CSV; here mylib is WORK with 20 inline DATALINES rows. The PROC TABULATE statement's own STYLE=[...] table-wide option was dropped (Jenner rejects it as an unexpected token; filed as a regression test upstream) -- the VAR/CLASS/KEYWORD-level STYLE options from the original are kept unchanged."
+}
