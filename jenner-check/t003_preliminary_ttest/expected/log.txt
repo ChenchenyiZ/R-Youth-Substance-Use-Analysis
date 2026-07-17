@@ -1,0 +1,43 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB assigned path=/tmp/work/r_25ef2d269ce94a5cb475597e87ed917c/work/0c1fb10b-3544-46c7-b80e-6337236981b6.
+NOTE: DATA mylib.youth_smoking_drug_data
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote mylib.youth_smoking_drug_data (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA mylib.youth_smoking_drug_data_copy
+
+
+NOTE: Read 20 rows from mylib.youth_smoking_drug_data.
+NOTE: Wrote mylib.youth_smoking_drug_data_copy (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Mean CI T and P-value of each age group.
+NOTE: PROC TABULATE
+NOTE: Option TITLE changed to Detailed T-test for each age group.
+NOTE: PROC SORT data=mylib.youth_smoking_drug_data_copy
+
+NOTE: Read 20 rows from mylib.youth_smoking_drug_data_copy.
+NOTE: Wrote mylib.youth_smoking_drug_data_copy (20 rows, 8 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC TTEST data=mylib.youth_smoking_drug_data_copy
+
+NOTE: BY Group: Age_Group=10-12
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: Age_Group=13-15
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: Age_Group=16-18
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: BY Group: Age_Group=19-21
+NOTE: PROC TTEST ODS Graphics generated.
+NOTE: PROC TTEST statement used.
+NOTE: PROC SGPLOT data=mylib.youth_smoking_drug_data_copy
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg

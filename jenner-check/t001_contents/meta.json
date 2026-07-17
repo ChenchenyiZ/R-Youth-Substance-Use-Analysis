@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_contents",
+  "source_file": "Group_Contents_14.sas",
+  "source_blob_sha": "a0d2997ab1dcd8fc4919213e32a46ff6f1014c9f",
+  "source_commit": "fd01c61c0b4c79c25fea12e863dbb71427ad9dfc",
+  "notes": "Imports the group's youth_smoking_drug_data CSV, copies it, PROC PRINTs a var subset, and runs PROC CONTENTS with the original titles. Original LIBNAME pointed at a classroom shared drive (~/STAT5740HW) and a CSV not in the repo; here mylib is WORK and 20 sample rows matching the dataset's 8 columns are supplied inline via DATALINES."
+}

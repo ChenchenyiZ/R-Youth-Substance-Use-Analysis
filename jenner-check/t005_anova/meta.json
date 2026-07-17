@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_anova",
+  "source_file": "Group_FinalReport_Code_14.sas",
+  "source_blob_sha": "2c2dea74dfc489277595839089ba855dc0a80453",
+  "source_commit": "fd01c61c0b4c79c25fea12e863dbb71427ad9dfc",
+  "notes": "Chenchenyi's and Abby's ANOVA questions from the group's final report: PROC ANOVA of Smoking_Prevalence by Age_Group, then Smoking_Prevalence and Drug_Experimentation by Socioeconomic_status, each with CLASS/MODEL/MEANS SCHEFFE and the original LABEL statements. Original LIBNAME/PROC IMPORT pointed at a classroom shared drive and a Kaggle CSV not in the repo; here mylib is WORK with 20 inline DATALINES rows. CLASS/MODEL/MEANS/LABEL statements are byte-identical to the source."
+}

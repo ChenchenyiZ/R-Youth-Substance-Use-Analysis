@@ -1,0 +1,42 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB assigned path=/tmp/work/r_31d445eabdeb4b9d9d879b654ba0e509/work/e0480dd7-bddb-4d88-90dd-2d5a25df88e4.
+NOTE: DATA mylib.youth_smoking_drug_data
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote mylib.youth_smoking_drug_data (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA mylib.youth_smoking_drug_data_copy
+
+
+NOTE: Read 20 rows from mylib.youth_smoking_drug_data.
+NOTE: Wrote mylib.youth_smoking_drug_data_copy (20 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to ANOVA Test for Smoking Prevalence between Age Groups.
+NOTE: PROC ANOVA data=mylib.youth_smoking_drug_data_copy
+
+NOTE: PROC ANOVA: using Python wrapper for advanced features
+NOTE: ODS plot written: anova_boxplot.spec.json
+NOTE: ODS plot written: anova_diagnostics.spec.json
+NOTE: PROC ANOVA: 20 observations, 1 effects analyzed
+NOTE: Option TITLE changed to Smoking Prevalence by Socioeconomic Status ANOVA.
+NOTE: PROC ANOVA data=mylib.youth_smoking_drug_data_copy
+
+NOTE: PROC ANOVA: using Python wrapper for advanced features
+NOTE: ODS plot written: anova_boxplot.spec.json
+NOTE: ODS plot written: anova_diagnostics.spec.json
+NOTE: PROC ANOVA: 20 observations, 1 effects analyzed
+NOTE: Option TITLE changed to Drug Experimentation by Socioeconomic Status ANOVA.
+NOTE: PROC ANOVA data=mylib.youth_smoking_drug_data_copy
+
+NOTE: PROC ANOVA: using Python wrapper for advanced features
+NOTE: ODS plot written: anova_boxplot.spec.json
+NOTE: ODS plot written: anova_diagnostics.spec.json
+NOTE: PROC ANOVA: 20 observations, 1 effects analyzed

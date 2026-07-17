@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_tableone",
+  "source_file": "Group_TableOne_code_14.sas",
+  "source_blob_sha": "95688ff9bc15271280b403f8ca948066a1b0851d",
+  "source_commit": "fd01c61c0b4c79c25fea12e863dbb71427ad9dfc",
+  "notes": "Builds the group's 'Table One' summary: PROC CONTENTS then a six-variable PROC TABULATE (mean/std by Age_Group, N/col-pct by Socioeconomic_status). Original LIBNAME/PROC IMPORT pointed at a classroom shared drive and an out-of-repo CSV; here mylib is WORK and 20 sample rows matching the dataset's 8 columns are supplied inline via DATALINES. CLASS/VAR/TABLE statement is byte-identical to the source."
+}

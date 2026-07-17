@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_graphics_vbox",
+  "source_file": "Group_Graphics_Code_14.sas",
+  "source_blob_sha": "d4d7abb9dff823a3b1a0fe4ea17f2576f69ca7ae",
+  "source_commit": "fd01c61c0b4c79c25fea12e863dbb71427ad9dfc",
+  "notes": "Abby's and Chenchenyi's SGPLOT questions: three PROC SGPLOT VBOX calls (smoking prevalence and drug experimentation by socioeconomic status, then smoking prevalence by age group). Original LIBNAME/PROC IMPORT pointed at a classroom shared drive and an out-of-repo CSV; here mylib is WORK with 20 inline DATALINES rows. VBOX statements are byte-identical to the source."
+}

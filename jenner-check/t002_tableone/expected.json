@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-17T16:59:30Z",
+  "_captured_run_id": "r_05c69e28105c46bca80e8b276d491d52",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 20 rows from DATALINES.",
+    "NOTE: Wrote mylib.youth_smoking_drug_data (20 rows, 8 columns).",
+    "NOTE: PROC CONTENTS completed: 20 observations, 8 variables",
+    "NOTE: PROC TABULATE"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
